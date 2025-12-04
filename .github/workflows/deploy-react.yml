@@ -1,34 +1,31 @@
-name: Build and Deploy React (Vite) to GitHub Pages
+name: Deploy React App to GitHub Pages
 
 on:
   push:
     branches:
-      - main    # or 'master' if that's your default branch
+      - main
 
 permissions:
   contents: write
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'   # or 'yarn' if you're using yarn
+          node-version: 20
 
       - name: Install dependencies
         run: npm install
-        # or: run: yarn install
 
       - name: Build
         run: npm run build
-        # or: run: yarn build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
