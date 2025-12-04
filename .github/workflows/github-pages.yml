@@ -2,7 +2,7 @@ name: Deploy React (Vite) to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]   # change if your default branch is different
+    branches: [ "main" ]   # use your default branch name
 
 permissions:
   contents: write
@@ -26,17 +26,20 @@ jobs:
         with:
           node-version: 20
 
+      # 👇 Run npm *inside* the frontend folder
       - name: Install dependencies
         run: npm install
-        # or: yarn install
+        working-directory: ./frontend
 
       - name: Build
         run: npm run build
+        working-directory: ./frontend
 
+      # 👇 Upload the built files from frontend/dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist    # Vite builds into dist/
+          path: ./frontend/dist
 
   deploy:
     needs: build
