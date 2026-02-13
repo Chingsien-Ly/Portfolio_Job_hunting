@@ -2,6 +2,8 @@ import React from "react";
 import Diploma from "../assets/diploma.png";
 import Bachelor from "../assets/bachelor.png";
 import SkillCard from "../components/SkillCard";
+import Master from "../assets/master.png";
+import SQL from "../assets/sql.jpeg";
 function Experiences() {
   // skills
   const skills = [
@@ -91,7 +93,7 @@ function Experiences() {
               {/* content */}
               <figure className="w-60 rounded-2xl">
                 <img
-                  src={Bachelor}
+                  src={Master}
                   alt="bachelor"
                   className="border  border-[#CDCDCD] rounded-2xl"
                 />
@@ -142,15 +144,24 @@ function Experiences() {
                 </svg>
               </div>
               <div className="timeline-start mb-10 md:text-end">
-                <time className="font-mono italic">2020</time>
-                <div className="text-lg font-black">Junior Web-developer</div>
-                The Apple Macintosh—later rebranded as the Macintosh 128K—is the
-                original Apple Macintosh personal computer. It played a pivotal
-                role in establishing desktop publishing as a general office
-                function. The motherboard, a 9 in (23 cm) CRT monitor, and a
-                floppy drive were housed in a beige case with integrated
-                carrying handle; it came with a keyboard and single-button
-                mouse.
+                <time className="font-mono italic">June 2025 – Present</time>
+                <div className="text-lg font-black">
+                  Casual Academic (Teaching Assistant), Flinders University
+                </div>
+                At Flinders University, I support undergraduate and postgraduate
+                students across core subjects in computer science and software
+                engineering, including computer programming, data structures,
+                and web development. My role involves leading practical lab
+                sessions, tutoring students in UI/UX design, HTML, CSS,
+                JavaScript, PHP, C++, Java, object-oriented programming, and
+                data structures, and guiding them through debugging,
+                optimisation, and best coding practices. I also assist with
+                assessment marking and provide constructive, actionable feedback
+                to enhance learning outcomes. Working closely with lecturers, I
+                contribute to refining teaching materials and improving course
+                delivery, while helping students build confidence and a strong
+                understanding of programming fundamentals and modern web
+                technologies.
               </div>
               <hr />
             </li>
@@ -171,12 +182,22 @@ function Experiences() {
                 </svg>
               </div>
               <div className="timeline-end md:mb-10">
-                <time className="font-mono italic">1998</time>
-                <div className="text-lg font-black">iMac</div>
-                iMac is a family of all-in-one Mac desktop computers designed
-                and built by Apple Inc. It has been the primary part of Apple's
-                consumer desktop offerings since its debut in August 1998, and
-                has evolved through seven distinct forms
+                <time className="font-mono italic">August 2022 – Mar 2023</time>
+                <div className="text-lg font-black">
+                  Software Developer Intern, CBAA
+                </div>
+                CBAA is a Cambodia-based digital platform that supports users in
+                exploring real estate locations, comparing pricing, identifying
+                job opportunities, and evaluating property options. I
+                contributed to the development of a full-stack web application
+                using React.js and Node.js, designing responsive and
+                user-friendly interfaces with Tailwind CSS and Material UI to
+                ensure usability across devices. My work included building
+                RESTful APIs and backend functionality with Express.js and
+                MySQL, following Agile SDLC practices through sprint planning
+                and reviews. I also used Git/GitHub for version control and
+                participated in unit and integration testing to maintain code
+                quality and reliability.
               </div>
               <hr />
             </li>
@@ -197,71 +218,28 @@ function Experiences() {
                 </svg>
               </div>
               <div className="timeline-start mb-10 md:text-end">
-                <time className="font-mono italic">2001</time>
-                <div className="text-lg font-black">iPod</div>
-                The iPod is a discontinued series of portable media players and
-                multi-purpose mobile devices designed and marketed by Apple Inc.
-                The first version was released on October 23, 2001, about 8+1⁄2
-                months after the Macintosh version of iTunes was released. Apple
-                sold an estimated 450 million iPod products as of 2022. Apple
-                discontinued the iPod product line on May 10, 2022. At over 20
-                years, the iPod brand is the oldest to be discontinued by Apple
+                <time className="font-mono italic">
+                  January 2021 – April 2022
+                </time>
+                <div className="text-lg font-black">
+                  Full-stack Software Developer, Smart Axiata
+                </div>
+                At Smart Axiata, one of Cambodia’s largest telecommunications
+                companies, I worked on internal digital platforms that supported
+                business and operational teams. I developed and maintained
+                full-stack web applications using JavaScript/TypeScript, React,
+                Node.js, and RESTful APIs, while building reusable UI components
+                with React, Tailwind CSS, and Material UI to improve consistency
+                and development efficiency. My responsibilities included
+                implementing authentication, role-based access control, CRUD
+                operations, and optimising API endpoints, as well as integrating
+                internal systems and third-party services via secure APIs. I
+                collaborated closely with product, QA, and DevOps teams in an
+                Agile/Scrum environment, designed and optimised relational
+                databases, and supported the full development lifecycle using
+                Git, Jira, CI/CD pipelines, and cloud platforms.
               </div>
               <hr />
-            </li>
-            <li>
-              <hr />
-              <div className="timeline-middle">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="h-5 w-5"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </div>
-              <div className="timeline-end md:mb-10">
-                <time className="font-mono italic">2007</time>
-                <div className="text-lg font-black">iPhone</div>
-                iPhone is a line of smartphones produced by Apple Inc. that use
-                Apple's own iOS mobile operating system. The first-generation
-                iPhone was announced by then-Apple CEO Steve Jobs on January 9,
-                2007. Since then, Apple has annually released new iPhone models
-                and iOS updates. As of November 1, 2018, more than 2.2 billion
-                iPhones had been sold. As of 2022, the iPhone accounts for 15.6%
-                of global smartphone market share
-              </div>
-              <hr />
-            </li>
-            <li>
-              <hr />
-              <div className="timeline-middle">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="h-5 w-5"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </div>
-              <div className="timeline-start mb-10 md:text-end">
-                <time className="font-mono italic">2015</time>
-                <div className="text-lg font-black">Apple Watch</div>
-                The Apple Watch is a line of smartwatches produced by Apple Inc.
-                It incorporates fitness tracking, health-oriented capabilities,
-                and wireless telecommunication, and integrates with iOS and
-                other Apple products and services
-              </div>
             </li>
           </ul>
         </div>
@@ -274,6 +252,30 @@ function Experiences() {
           <div className="font-bold">AUSTRALIA</div>
         </div>
         <div className="border border-[#CDCDCD]"></div>
+        <div className="hover-3d mt-10">
+          {/* content */}
+          <figure className="w-60 rounded-2xl">
+            <img
+              src={SQL}
+              alt="bachelor"
+              className="border  border-[#CDCDCD] rounded-2xl"
+            />
+            <div className="flex flex-col items-center justify-center">
+              <div className="font-bold">Flinders University</div>
+              <div>2023-2024</div>
+              <div></div>
+            </div>
+          </figure>
+          {/* 8 empty divs needed for the 3D effect */}
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
       {/* Skill */}
       <div className="w-full mt-5">

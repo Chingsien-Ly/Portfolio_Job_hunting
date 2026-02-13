@@ -1,10 +1,18 @@
-import React from "react";
-import Profile from "../assets/profile.svg";
+import React, { useState } from "react";
+import Profile1 from "../assets/profile.svg";
+import Profile2 from "../assets/profile1.jpg";
+import Click from "../assets/click.svg";
 import Linkedin from "../assets/linkedin.svg";
 import Outlook from "../assets/outlook.svg";
 import Github from "../assets/github.svg";
 import { Link } from "react-router-dom";
 function Home() {
+  // onclick listener to switch the image
+  const [click, setClick] = useState(true);
+  // method for the onclick listener
+  const onClickHandler = () => {
+    setClick((prev) => !prev);
+  };
   return (
     <div className="w-full h-full flex items-center px-28">
       <div className="w-full h-full flex items-center justify-between">
@@ -72,9 +80,19 @@ function Home() {
           </div>
         </div>
         {/* right container */}
-        <div className="hover-3d z-10">
-          <figure className="w-[490px] rounded-2xl">
-            <img src={Profile} alt="profile" />
+        <div className="hover-3d z-10 cursor-pointer" onClick={onClickHandler}>
+          <figure className="w-[490px] rounded-2xl relative">
+            {click ? (
+              <img src={Profile1} alt="profile1" />
+            ) : (
+              <img src={Profile2} alt="profile" />
+            )}
+            <div className="absolute top-2 right-2 p-2 bg-white rounded-2xl flex items-center justify-center gap-2">
+              <img src={Click} alt="clickCursor" className="size-7 " />
+              <div className="skeleton skeleton-text">
+                Click for more photos!
+              </div>
+            </div>
           </figure>
           {/* 8 empty divs needed for the 3D effect */}
           <div></div>

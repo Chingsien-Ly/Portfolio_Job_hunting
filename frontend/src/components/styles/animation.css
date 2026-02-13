@@ -1,0 +1,54 @@
+.animation {
+  opacity: 0;
+  animation: fadeIn 4s linear infinite;
+}
+.animation:nth-child(1) {
+  animation-delay: 0s;
+  color: #d53e4f;
+}
+.animation:nth-child(2) {
+  animation-delay: 0.2s;
+  color: #f46d43;
+}
+.animation:nth-child(3) {
+  animation-delay: 0.4s;
+  color: #fdae61;
+}
+.animation:nth-child(4) {
+  animation-delay: 0.6s;
+  color: #fee08b;
+}
+.animation:nth-child(5) {
+  animation-delay: 0.8s;
+  color: #ffffbf;
+}
+.animation:nth-child(6) {
+  animation-delay: 1s;
+  color: #e6f598;
+}
+.animation:nth-child(7) {
+  animation-delay: 1.2s;
+  color: #aadda4;
+}
+.animation:nth-child(8) {
+  animation-delay: 1.4s;
+  color: #66c2a5;
+}
+.animation:nth-child(9) {
+  animation-delay: 1.6s;
+  color: #3288bd;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

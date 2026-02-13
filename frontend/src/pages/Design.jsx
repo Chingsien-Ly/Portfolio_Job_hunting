@@ -2,6 +2,7 @@ import React from "react";
 import MainImg from "../assets/sneaker1.png";
 import sneaker2 from "../assets/sneaker2.png";
 import sneaker3 from "../assets/sneaker3.png";
+import "../components/styles/animation.css";
 function Design() {
   return (
     <div>
@@ -152,6 +153,36 @@ function Design() {
             className="w-full h-full object-cover"
           />
         </div>
+      </div>
+
+      <div className="pl-28 pb-5 pt-10 w-full h-[50px] flex items-center justify-center">
+        <span className="text-[32px] font-bold underline italic">
+          Animation
+        </span>
+      </div>
+      {/* Animation content */}
+      <div className="grid grid-cols-4 grid-rows-2 gap-2 h-[500px] px-28 my-5">
+        {/* jumping animation */}
+        <div className="border p-2 rounded-md flex items-center justify-center">
+          <div className="animate-bounce text-[28px] font-bold">
+            Discount 10%
+          </div>
+        </div>
+        {/* Customer animation */}
+        <div className="border bg-[#1f1f1f] rounded-md text-[35px] p-2 flex items-center justify-center font-bold gap-0.5 ">
+          <div className="animation flex ">
+            <div className="animation">A</div>
+            <div className="animation">n</div>
+            <div className="animation">i</div>
+            <div className="animation">m</div>
+            <div className="animation">a</div>
+            <div className="animation">t</div>
+            <div className="animation">i</div>
+            <div className="animation">o</div>
+            <div className="animation">n</div>
+          </div>
+        </div>
+        <div></div>
       </div>
     </div>
   );
