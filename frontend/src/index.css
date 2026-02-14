@@ -1,7 +1,12 @@
+@import "@fontsource-variable/inter/index.css";
 @import "tailwindcss";
 @plugin "daisyui";
-:root{
-    background-color: white;
-    color: black;
-}
 
+:root {
+  background-color: white;
+  color: black;
+}
+.Trello {
+  font-family: "InterVariable", "Inter", system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}

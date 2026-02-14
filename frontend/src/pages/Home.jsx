@@ -35,8 +35,8 @@ function Home() {
           <div className="flex justify-between">
             {/* 1 container */}
             <div className="bg-[#F9FAFF] p-5 rounded-xl w-40 h-[134px] flex flex-col items-center justify-between">
-              <div className="text-[36px] font-bold text-[#4070F4]">HD</div>
-              <div className=" text-black text-[17px]">Website topics</div>
+              <div className="text-[36px] font-bold text-[#4070F4]">1 yr+</div>
+              <div className=" text-black text-[17px]">Fullstack Dev</div>
             </div>
             {/* 2 container */}
             <div className="bg-[#F9FAFF] p-5 rounded-xl w-40 h-[134px] flex flex-col items-center justify-between">
