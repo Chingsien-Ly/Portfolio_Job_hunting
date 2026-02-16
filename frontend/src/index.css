@@ -1,4 +1,3 @@
-@import "@fontsource-variable/inter/index.css";
 @import "tailwindcss";
 @plugin "daisyui";
 
@@ -9,4 +8,15 @@
 .Trello {
   font-family: "InterVariable", "Inter", system-ui, -apple-system, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+.avatar {
+  border: none;
+}
+.tooltip > .tooltip-content,
+.tooltip[data-tip]:before {
+  font-size: 10px; /* 12px */
+  color: black;
+}
+.modal::backdrop {
+  background-color: rgba(0, 0, 0, 0.4);
 }
