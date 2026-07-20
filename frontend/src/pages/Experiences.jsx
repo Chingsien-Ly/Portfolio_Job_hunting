@@ -146,7 +146,8 @@ function Experiences() {
               <div className="timeline-start mb-10 md:text-end">
                 <time className="font-mono italic">June 2025 – Present</time>
                 <div className="text-lg font-black">
-                  Casual Academic (Teaching Assistant), Flinders University
+                  Casual Academic (Teaching Assistant) | Flinders University,
+                  Adelaide
                 </div>
                 At Flinders University, I support undergraduate and postgraduate
                 students across core subjects in computer science and software
@@ -162,6 +163,92 @@ function Experiences() {
                 delivery, while helping students build confidence and a strong
                 understanding of programming fundamentals and modern web
                 technologies.
+              </div>
+              <hr />
+            </li>
+            <li>
+              <div className="timeline-middle">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="h-5 w-5"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div className="timeline-end mb-10 md:text-start">
+                <time className="font-mono italic">Jan 2026 – Present</time>
+                <div className="text-lg font-black">
+                  Retail Assistant / Data Support | The Classic Jewellers,
+                  Adelaide
+                </div>
+                <ol>
+                  <li>
+                    • Maintain accurate customer, product and order information
+                    in Shopify and internal records, checking details, pricing,
+                    descriptions and requests for completeness and consistency.
+                  </li>
+                  <li>
+                    • Resolve routine data and system issues, update records
+                    carefully and communicate progress clearly when follow-up or
+                    manager input is required.
+                  </li>
+                  <li>
+                    • Built a Python-based data collection application to
+                    gather, organise and display operational information,
+                    reducing repetitive work and improving data visibility.
+                  </li>
+                  <li>
+                    • Work with the manager to understand business needs,
+                    identify practical workflow improvements and support
+                    customer-facing processes with accurate information.
+                  </li>
+                </ol>
+              </div>
+              <hr />
+            </li>
+            <li>
+              <div className="timeline-middle">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="h-5 w-5"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div className="timeline-start mb-10 md:text-end">
+                <time className="font-mono italic">Mar 2026 – Present</time>
+                <div className="text-lg font-black">
+                  IT Support Volunteer | Campbelltown Library, Adelaide
+                </div>
+                <ol>
+                  <li>
+                    • Provide first-line ICT support to library visitors and
+                    staff, troubleshooting computer access, printing, online
+                    services, devices and common software issues.
+                  </li>
+                  <li>
+                    • Use Spiceworks to log, prioritise and track support
+                    requests, maintain clear notes, keep users informed and
+                    escalate issues that require additional access or expertise.
+                  </li>
+                  <li>
+                    • Guide non-technical users through step-by-step solutions,
+                    confirm that issues are resolved and help users become more
+                    confident with everyday technology.
+                  </li>
+                </ol>
               </div>
               <hr />
             </li>
@@ -184,13 +271,13 @@ function Experiences() {
               <div className="timeline-end md:mb-10">
                 <time className="font-mono italic">August 2022 – Mar 2023</time>
                 <div className="text-lg font-black">
-                  Software Developer Intern, CBAA
+                  Software Developer Intern, Cambodia Associate
                 </div>
-                CBAA is a Cambodia-based digital platform that supports users in
-                exploring real estate locations, comparing pricing, identifying
-                job opportunities, and evaluating property options. I
-                contributed to the development of a full-stack web application
-                using React.js and Node.js, designing responsive and
+                Cambodia Associate is a Cambodia-based digital platform that
+                supports users in exploring real estate locations, comparing
+                pricing, identifying job opportunities, and evaluating property
+                options. I contributed to the development of a full-stack web
+                application using React.js and Node.js, designing responsive and
                 user-friendly interfaces with Tailwind CSS and Material UI to
                 ensure usability across devices. My work included building
                 RESTful APIs and backend functionality with Express.js and
@@ -198,46 +285,6 @@ function Experiences() {
                 and reviews. I also used Git/GitHub for version control and
                 participated in unit and integration testing to maintain code
                 quality and reliability.
-              </div>
-              <hr />
-            </li>
-            <li>
-              <hr />
-              <div className="timeline-middle">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="h-5 w-5"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </div>
-              <div className="timeline-start mb-10 md:text-end">
-                <time className="font-mono italic">
-                  January 2021 – April 2022
-                </time>
-                <div className="text-lg font-black">
-                  Full-stack Software Developer, Smart Axiata
-                </div>
-                At Smart Axiata, one of Cambodia’s largest telecommunications
-                companies, I worked on internal digital platforms that supported
-                business and operational teams. I developed and maintained
-                full-stack web applications using JavaScript/TypeScript, React,
-                Node.js, and RESTful APIs, while building reusable UI components
-                with React, Tailwind CSS, and Material UI to improve consistency
-                and development efficiency. My responsibilities included
-                implementing authentication, role-based access control, CRUD
-                operations, and optimising API endpoints, as well as integrating
-                internal systems and third-party services via secure APIs. I
-                collaborated closely with product, QA, and DevOps teams in an
-                Agile/Scrum environment, designed and optimised relational
-                databases, and supported the full development lifecycle using
-                Git, Jira, CI/CD pipelines, and cloud platforms.
               </div>
               <hr />
             </li>
